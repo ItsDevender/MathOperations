@@ -14,11 +14,6 @@ steps:
   inputs:
     SonarQube: 'sonarcube-ado-tkn'
     scannerMode: 'Other'
-    extraProperties: |
-      # Additional properties that will be passed to the scanner,
-      # Put one key=value per line, example:
-      # sonar.exclusions=**/*.bin
-      sonar.projectKey=testProject_testProject_AYhXhpOTLwZzo71FnJ0d
 - task: SonarQubeAnalyze@5
 - task: SonarQubePublish@5
   inputs:
