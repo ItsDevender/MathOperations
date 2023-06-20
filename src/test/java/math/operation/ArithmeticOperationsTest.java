@@ -3,10 +3,10 @@ package math.operation;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class ArithmeticOperationsTest {
+class ArithmeticOperationsTest {
 
 	@Test
-	public void testAdd()
+	void testAdd()
 	{	
 		ArithmeticOperations operations = new ArithmeticOperations();
 		Integer actual = operations.add(2, 6);
